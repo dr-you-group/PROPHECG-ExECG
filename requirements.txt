@@ -1,0 +1,14 @@
+# Development environment: Python 3.8.12, CUDA 11.1 (Ubuntu). Versions below are the ones used for the paper.
+torch==1.9.1
+torchvision==0.11.1
+pytorch-lightning==1.5.10
+torchmetrics==0.9.1
+ecgxai==0.1.1            # base classes imported by scripts/FoundationModel/ecgxaiY
+numpy==1.21.2
+pandas==2.0.3
+scipy==1.6.2
+scikit-learn==1.0.1
+xgboost==2.0.3
+joblib==1.1.0
+pyarrow==13.0.0
+tqdm==4.62.3

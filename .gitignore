@@ -1,0 +1,23 @@
+# patient-level data and analysis outputs: never commit
+data/*
+!data/README.md
+results/
+*.xlsx
+
+# model checkpoints (>100 MB): distributed as GitHub Release assets, see model/README.md
+model/*.ckpt
+
+# credentials
+neptune_token.txt
+*.token
+
+# OS, editor and session files
+.DS_Store
+__MACOSX/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
